@@ -56,14 +56,30 @@ BlockAssist is an AI assistant that learns from its user’s actions in Minecraf
 
 * >Next & Finish: It gonna run on background:
 
-* >Whenever you are going to play the game, you need to open XLaunch everytime and do all the above process:
+* >❗Whenever you are going to play the game, you need to open XLaunch everytime and do all the above process:
 
 <img width="1941" height="378" alt="image" src="https://github.com/user-attachments/assets/8f63ac81-b4eb-4b3b-9d80-3198a5928708" />
 
 
+### Set DISPLAY and Audio to ~/.bashrc
 
+```
+echo -e '\n# WSL2 VcXsrv display setup\nexport DISPLAY=$(ip route | grep -m1 default | awk '"'"'{print $3}'"'"'):0.0\nexport LIBGL_ALWAYS_INDIRECT=0\nexport LIBGL_DEBUG=verbose' >> ~/.bashrc
+```
 
+* Reload ~/.bashrc
 
+```
+source ~/.bashrc
+```
+
+### Test VcXsrv
+
+```
+xeyes
+```
+
+>If a New Tab got pop-up with `EYES`, Than VcXsrv has set-up perfectly:
 
 
 ---
@@ -72,7 +88,7 @@ BlockAssist is an AI assistant that learns from its user’s actions in Minecraf
 
 ```
 sudo apt update
-sudo apt install make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev curl git libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev zip unzip 
+sudo apt install make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev curl git libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev zip unzip mesa-utils x11-apps
 ```
 
 ---
@@ -115,7 +131,7 @@ EOF
 source ~/.bashrc
 ```
 
-#### Install Python 3.10, psutil & readchar
+### Install Python 3.10, psutil & readchar
 
 ```
 pyenv install 3.10
