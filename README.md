@@ -193,3 +193,30 @@ python run.py
 
 #### 5. Enter Huggingface Token From [HERE]
 
+#### 6. Gensyn Testnet login
+
+> You will be prompted to log in through your browser:
+
+```
+http://localhost:3000
+```
+> open & Login with your mail (Better to use old mail which u are running rl-swarm)
+
+#### 7. Play Minecraft
+
+> After login, two Minecraft windows will be pop-up (could take a while to open)
+
+> After that Press `ENTER` in your UBUNTU/WSL:
+
+> Now go to first Minecraft window & Press `Enter` twice & move your player with `wasd` keys on keyboard:
+
+
+<img width="2559" height="1333" alt="image_2025-08-20_01-03-10" src="https://github.com/user-attachments/assets/a0a53cab-5e1c-4413-8d59-e6772b5c4cd3" />
+
+
+#### 8. How to Play?
+
+>
+
+
+
