@@ -81,6 +81,32 @@ xeyes
 
 >If a New Tab got pop-up with `EYES`, Than VcXsrv has set-up perfectly:
 
+<img width="229" height="146" alt="Screenshot 2025-08-14 005355" src="https://github.com/user-attachments/assets/3e48848c-73be-45a4-9602-130a1ac6614e" />
+
+
+## Get Hugging Face API token
+
+#### 1. Go To: [huggingface.co](https://huggingface.co/) & Sign Up with Mail:
+
+#### 2. Verify Your Email
+
+#### 3. Generate a New Access Token
+
+* >Click your profile icon (top right corner)
+
+* >Select “Access Tokens” from the dropdown
+
+* >Click “New token”
+
+* >Name: something like “BlockAssist”
+
+* >Role: choose Write
+
+* >Click “Create”
+
+#### 4. Copy & Save the token immediately - you won’t be able to see it again
+
+#### 5. 📋 Lost it? Just delete the token and create a new one
 
 ---
 
@@ -141,5 +167,29 @@ pyenv install 3.10
 pip install psutil readchar
 ```
 
+---
 
+## Run BlockAssist 🚀
+
+#### 1. Move to blockassist Directory
+
+```
+cd blockassist
+```
+
+#### 2. Activate the `blockassist-venv` Environment
+
+```
+source blockassist-venv/bin/activate
+```
+
+#### 3. Make sure XLaunch (VcXsrv) running in background
+
+#### 4. Start the BlockAssist
+
+```
+python run.py
+```
+
+#### 5. Enter Huggingface Token From [HERE]
 
