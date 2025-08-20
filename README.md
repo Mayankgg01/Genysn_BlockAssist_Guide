@@ -191,7 +191,7 @@ source blockassist-venv/bin/activate
 python run.py
 ```
 
-#### 5. Enter Huggingface Token From [HERE]
+#### 5. Enter Huggingface Token From [HERE](https://github.com/Mayankgg01/Genysn_BlockAssist_Guide?tab=readme-ov-file#get-hugging-face-api-token)
 
 #### 6. Gensyn Testnet login
 
@@ -216,7 +216,40 @@ http://localhost:3000
 
 #### 8. How to Play?
 
->
+---
+
+### Check logs:
+
+>If your node does not start & got terminated while starting then check logs in new tab: & debug it:
+
+```
+tail -f blockassist/logs/malmo.log
+```
+
+<div align="center">
+
+#   **FAQ❓**
+
+</div>
 
 
+## 1️⃣ How to start next Day:
+
+#### 1. Move to blockassist directory & Activate the Environment
+
+```
+cd blockassist
+```
+
+```
+source blockassist-venv/bin/activate
+```
+
+#### 2. Make sure XLaunch (VcXsrv) running in background: [FOLLOW](https://github.com/Mayankgg01/Genysn_BlockAssist_Guide?tab=readme-ov-file#install-vcxsrv-windows-x-server)
+
+#### 3. Run Script & Follow all the process which u did previously ✔️
+
+```
+python run.py
+```
 
