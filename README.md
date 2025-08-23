@@ -27,6 +27,7 @@ BlockAssist is an AI assistant that learns from its user’s actions in Minecraf
 
 * >Wont work in VPS (Cpu based) , GPU require
 
+* Installation for Mac user: [Follow](https://docs.gensyn.ai/testnet/blockassist/getting-started) :::: They dont need to install VcXsrv: just install these dependencies and all the process is same to play the game. just your start command is diff:
 
 # Pre-Requirements 🛠
 
@@ -253,3 +254,43 @@ source blockassist-venv/bin/activate
 python run.py
 ```
 
+
+---
+
+
+<div align="center">
+
+# Grab `Block` Role 🦾
+
+</div>
+
+### 1. First of all your have to take SWARM Role: [Follow](https://github.com/Mayankgg01/Gensyn-ai-Rl-Swarm_Guide?tab=readme-ov-file#swarm-role--tg-bot-set-up) the process if u have not taken yet:
+
+### 2. Go to `🐝@The Swarm` channel in DC:
+
+### 3. Type & send `/block-verify` 
+
+### 4. Now a Form will pop-up
+
+<img width="484" height="644" alt="Screenshot 2025-08-24 at 12 06 50 AM" src="https://github.com/user-attachments/assets/f3f352e1-c191-4ed1-b4f3-d03e3d1d822b" />
+
+### 5. Enter your Huggingface Block model URL from your Profile:
+
+<img width="2559" height="766" alt="image" src="https://github.com/user-attachments/assets/aa7b68e4-8dd2-4cbb-a878-ee13c7c25e6c" />
+
+### 6. Enter READ ONLY Huggingface User Token [FROM HERE](https://github.com/Mayankgg01/Genysn_BlockAssist_Guide?tab=readme-ov-file#get-hugging-face-api-token)
+
+DONE:✔️✔️✔️
+
+---
+
+
+<pre>
+
+👉 Join TG for more Updates: https://telegram.me/cryptogg
+
+If U have any issue then open a issue on this repo or Dm me on TG~
+
+Thank U! 👨🏻‍💻    Happy Coding💗
+
+</pre>
