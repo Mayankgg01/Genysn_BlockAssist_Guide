@@ -31,6 +31,13 @@ BlockAssist is an AI assistant that learns from its user’s actions in Minecraf
 
 # Pre-Requirements 🛠
 
+## Install dependencies
+
+```
+sudo apt update
+sudo apt install make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev curl git libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev zip unzip mesa-utils x11-apps
+```
+
 ## Install NVIDIA Game Ready Driver {IMPORTANT}
 
 * >Go To: [DOWNLOAD](https://www.nvidia.com/en-us/drivers/)
@@ -108,15 +115,6 @@ xeyes
 #### 4. Copy & Save the token immediately - you won’t be able to see it again
 
 #### 5. 📋 Lost it? Just delete the token and create a new one
-
----
-
-## Install dependencies
-
-```
-sudo apt update
-sudo apt install make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev curl git libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev zip unzip mesa-utils x11-apps
-```
 
 ---
 
