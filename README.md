@@ -34,8 +34,7 @@ BlockAssist is an AI assistant that learns from its user’s actions in Minecraf
 ## Install dependencies
 
 ```
-sudo apt update
-sudo apt install make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev curl git libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev zip unzip mesa-utils x11-apps
+sudo apt-get update -y && sudo apt-get install -y make build-essential gcc libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev curl git unzip zip mesa-utils x11-apps x11-xserver-utils libxi6 libxrender1 libxtst6 libxrandr2 libglu1-mesa libopenal1
 ```
 
 ### Install node.js
