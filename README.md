@@ -190,6 +190,14 @@ cd blockassist
 #### 2. Activate the `blockassist-venv` Environment
 
 ```
+pyenv local 3.10.18
+```
+
+```
+python -m venv blockassist-venv
+```
+
+```
 source blockassist-venv/bin/activate
 ```
 
