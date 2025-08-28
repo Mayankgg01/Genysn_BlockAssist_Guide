@@ -234,6 +234,8 @@ http://localhost:3000
 
 #### 8. How to Play?
 
+[watch the Video](https://youtu.be/ZnY5q5QnLsc)
+
 ---
 
 ### Check logs:
