@@ -261,9 +261,6 @@ tail -f blockassist/logs/malmo.log
 cd blockassist
 ```
 
-```
-source blockassist-venv/bin/activate
-```
 
 #### 2. Make sure XLaunch (VcXsrv) running in background: [FOLLOW](https://github.com/Mayankgg01/Genysn_BlockAssist_Guide?tab=readme-ov-file#install-vcxsrv-windows-x-server)
 
