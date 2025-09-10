@@ -255,7 +255,7 @@ tail -f blockassist/logs/malmo.log
 
 ## 1️⃣ How to start next Day:
 
-#### 1. Move to blockassist directory & Activate the Environment
+#### 1. Move to blockassist directory 
 
 ```
 cd blockassist
