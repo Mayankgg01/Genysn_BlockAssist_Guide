@@ -174,51 +174,50 @@ pyenv install 3.10
 ```
 
 ```
-pip install psutil readchar
+pip install psutil readchar rich
 ```
 
 ---
 
 ## Run BlockAssist 🚀
 
-#### 1. Move to blockassist Directory
+#### 1. Move to modal-login Directory & install yarn packages
+
+>Why? To prevent future terminated error
 
 ```
-cd blockassist
-```
-
-#### 2. Activate the `blockassist-venv` Environment
-
-```
-pyenv local 3.10.18
+cd ~/blockassist/modal-login 
 ```
 
 ```
-python -m venv blockassist-venv
+yarn install && yarn dev
 ```
 
-```
-source blockassist-venv/bin/activate
-```
-
-#### 3. Make sure XLaunch (VcXsrv) running in background
-
-#### 4. Start the BlockAssist
-
-```
-python run.py
-```
-
-#### 5. Enter Huggingface Token From [HERE](https://github.com/Mayankgg01/Genysn_BlockAssist_Guide?tab=readme-ov-file#get-hugging-face-api-token)
-
-#### 6. Gensyn Testnet login
+#### 2. Gensyn Testnet login
 
 > You will be prompted to log in through your browser:
 
 ```
 http://localhost:3000
 ```
+
 > open & Login with your mail (Better to use old mail which u are running rl-swarm)
+
+#### 3. `CTRL` + `C` After the login & move to blockassist repo
+
+```
+cd ~/blockassist
+```
+
+#### 4. Make sure XLaunch (VcXsrv) running in background
+
+#### 5. Start the BlockAssist
+
+```
+python run.py
+```
+
+#### 6. Enter Huggingface Token From [HERE](https://github.com/Mayankgg01/Genysn_BlockAssist_Guide?tab=readme-ov-file#get-hugging-face-api-token)
 
 #### 7. Play Minecraft
 
@@ -229,7 +228,8 @@ http://localhost:3000
 > Now go to first Minecraft window & Press `Enter` twice & move your player with `wasd` keys on keyboard:
 
 
-<img width="2559" height="1333" alt="image_2025-08-20_01-03-10" src="https://github.com/user-attachments/assets/a0a53cab-5e1c-4413-8d59-e6772b5c4cd3" />
+<img width="2542" height="1266" alt="image" src="https://github.com/user-attachments/assets/ff20d555-b499-4634-8045-6ce834217040" />
+
 
 
 #### 8. How to Play?
@@ -303,6 +303,31 @@ DONE:✔️✔️✔️
 
 ---
 
+
+
+<div align="center">
+
+# 📈 Upgrade to new release {v0.1.0} 
+
+</div>
+
+>We wont directly upgrade to v0.1.0 through git pull, instead we will remove the repo and will clone from scratch to optimized full changes:
+
+### 1. Remove `blockassist` & `pyenv` Repo
+
+```
+sudo rm -rf ~/blockassist
+```
+
+```
+sudo rm -rf ~/.pyenv
+```
+
+### 2. Now follow all the process from [Clone & move to blockassist Repo:](https://github.com/Mayankgg01/Genysn_BlockAssist_Guide?tab=readme-ov-file#clone--move-to-blockassist-repo)
+
+Done✔️✔️
+
+---
 
 <pre>
 
